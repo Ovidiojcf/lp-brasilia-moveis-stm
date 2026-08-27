@@ -36,11 +36,11 @@ export function Header() {
     <header
       className={`sticky top-0 z-50 border-b border-transparent font-sans transition-[background-color,box-shadow,border-color] duration-300 ease-in-out ${
         isScrolled
-          ? "border-[rgb(20_17_13_/_8%)] bg-[var(--color-cream)] shadow-[0_20px_60px_-20px_rgb(20_17_13_/_18%)]"
+          ? "border-[rgb(20_17_13/8%)] bg-(--color-cream) shadow-[0_20px_60px_-20px_rgb(20_17_13/18%)]"
           : "bg-transparent"
       }`}
     >
-      <div className="mx-auto flex h-20 max-w-[1280px] items-center justify-between px-6 lg:px-12">
+      <div className="mx-auto flex h-20 max-w-7xl items-center justify-between px-6 lg:px-12">
         <a
           href="#inicio"
           aria-label="Brasília Móveis Planejados - início"
@@ -62,7 +62,7 @@ export function Header() {
         >
           {navigation.map((item) => (
             <a
-              className="text-sm font-medium text-[var(--color-ink)] transition-colors duration-300 hover:text-[var(--color-gold)] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[var(--color-gold)]"
+              className="text-sm font-medium text-(--color-ink) transition-colors duration-300 hover:text-(--color-gold) focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-(--color-gold)"
               href={item.href}
               key={item.href}
             >
@@ -77,7 +77,7 @@ export function Header() {
 
         <button
           type="button"
-          className="flex h-11 w-11 flex-col items-center justify-center gap-1.5 rounded-full text-[var(--color-ink)] transition-colors hover:bg-[var(--color-sand)] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[var(--color-gold)] md:hidden"
+          className="flex h-11 w-11 flex-col items-center justify-center gap-1.5 rounded-full text-(--color-ink) transition-colors hover:bg-(--color-sand) focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-(--color-gold) md:hidden"
           aria-label={isMenuOpen ? "Fechar menu" : "Abrir menu"}
           aria-expanded={isMenuOpen}
           onClick={() => setIsMenuOpen((open) => !open)}
@@ -95,7 +95,7 @@ export function Header() {
       </div>
 
       <div
-        className={`fixed inset-0 top-20 z-40 bg-[var(--color-cream)] transition-[visibility,opacity] duration-300 md:hidden ${
+        className={`fixed inset-0 top-20 z-40 bg-(--color-cream) transition-[visibility,opacity] duration-300 md:hidden ${
           isMenuOpen ? "visible opacity-100" : "invisible opacity-0"
         }`}
         aria-hidden={!isMenuOpen}
@@ -107,7 +107,7 @@ export function Header() {
           <div className="flex flex-col gap-7">
             {navigation.map((item) => (
               <a
-                className="font-sans text-4xl font-medium text-[var(--color-ink)] transition-colors hover:text-[var(--color-gold)] focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-[var(--color-gold)]"
+                className="font-sans text-4xl font-medium text-(--color-ink) transition-colors hover:text-(--color-gold) focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-(--color-gold)"
                 href={item.href}
                 key={item.href}
                 tabIndex={isMenuOpen ? 0 : -1}
