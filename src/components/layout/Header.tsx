@@ -34,7 +34,7 @@ export function Header() {
 
   return (
     <header
-      className={`sticky top-0 z-50 border-b border-transparent font-sans transition-[background-color,box-shadow,border-color] duration-300 ease-in-out ${
+      className={`fixed inset-x-0 top-0 z-50 border-b border-transparent font-sans transition-[background-color,box-shadow,border-color] duration-300 ease-in-out ${
         isScrolled
           ? "border-[rgb(20_17_13/8%)] bg-(--color-cream) shadow-[0_20px_60px_-20px_rgb(20_17_13/18%)]"
           : "bg-transparent"
