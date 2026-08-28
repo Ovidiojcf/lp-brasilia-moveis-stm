@@ -27,12 +27,12 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <body className="min-h-full flex flex-col">
         {children}
 
-        {/* impeccable-live-start */}
-        <Script
-          src="http://localhost:8400/live.js?token=f90cef6b-c01a-4317-ade2-cc0af45f9ffc"
-          strategy="afterInteractive"
-        />
-        {/* impeccable-live-end */}
+        {process.env.NODE_ENV === "development" && (
+          <Script
+            src="http://localhost:8400/live.js?token=f90cef6b-c01a-4317-ade2-cc0af45f9ffc"
+            strategy="afterInteractive"
+          />
+        )}
       </body>
     </html>
   );
