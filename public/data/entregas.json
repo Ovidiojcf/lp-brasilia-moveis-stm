@@ -1,0 +1,178 @@
+{
+  "version": 1,
+  "updatedAt": "2026-08-28",
+  "items": [
+    {
+      "id": "ETG001",
+      "name": "Cozinha planejada cinza com ilha e painel ripado",
+      "p": "Cozinha planejada com armários cinza, torre para eletrodomésticos, bancada de pedra escura e ilha central com gaveteiros. O painel ripado com iluminação embutida acrescenta destaque ao ambiente.",
+      "image": {
+        "src": "/images/cozinha-planejada-armario-cinza.jpg",
+        "alt": "Cozinha planejada cinza com ilha, bancada escura e painel ripado iluminado",
+        "type": "image/jpeg"
+      },
+      "caption": "Cozinha planejada cinza com ilha central e iluminação no painel ripado.",
+      "category": "cozinhas",
+      "location": "Brasília, DF",
+      "keywords": [
+        "cozinha planejada cinza",
+        "cozinha com ilha",
+        "painel ripado para cozinha",
+        "móveis planejados em Brasília"
+      ],
+      "publishedAt": "2026-08-28",
+      "featured": true,
+      "reviewNotes": [
+        "Confirmar localidade e data real da entrega antes da publicação.",
+        "Confirmar o material e a marca da bancada; a imagem apenas indica uma superfície escura, possivelmente pedra."
+      ]
+    },
+    {
+      "id": "ETG002",
+      "name": "Cozinha planejada com forno e micro-ondas embutidos",
+      "p": "Torre de cozinha planejada com nichos para micro-ondas e forno elétrico, armários superiores e gaveteiros em acabamento cinza.",
+      "image": {
+        "src": "/images/cozinha-planejada-armario-forno-eletrico.jpg",
+        "alt": "Torre de cozinha planejada cinza com micro-ondas e forno elétrico embutidos",
+        "type": "image/jpeg"
+      },
+      "caption": "Torre planejada com micro-ondas e forno elétrico embutidos.",
+      "category": "cozinhas",
+      "location": "Brasília, DF",
+      "keywords": [
+        "torre quente planejada",
+        "forno embutido",
+        "micro-ondas embutido",
+        "armário de cozinha sob medida"
+      ],
+      "publishedAt": "2026-08-28",
+      "featured": false,
+      "reviewNotes": [
+        "Confirmar localidade, data da entrega e nomes das marcas dos eletrodomésticos."
+      ]
+    },
+    {
+      "id": "ETG003",
+      "name": "Cozinha planejada em L com bancada preta",
+      "p": "Cozinha planejada em formato de L, com armários cinza, bancada preta, cuba, cooktop, gaveteiros e espaço para lava-louças.",
+      "image": {
+        "src": "/images/cozinha-planejada-armario-pia.jpg",
+        "alt": "Cozinha planejada em L com armários cinza, bancada preta, pia e cooktop",
+        "type": "image/jpeg"
+      },
+      "caption": "Cozinha em L com bancada preta, pia e área de cocção planejadas.",
+      "category": "cozinhas",
+      "location": "Brasília, DF",
+      "keywords": [
+        "cozinha planejada em L",
+        "cozinha com bancada preta",
+        "armários de cozinha cinza",
+        "móveis sob medida em Brasília"
+      ],
+      "publishedAt": "2026-08-28",
+      "featured": false,
+      "reviewNotes": [
+        "Confirmar localidade, data da entrega e material da bancada.",
+        "A foto mostra revestimento quadriculado e eletrodomésticos, mas não confirma que esses itens foram fornecidos pela marcenaria."
+      ]
+    },
+    {
+      "id": "ETG004",
+      "name": "Cozinha planejada com iluminação e torre quente",
+      "p": "Composição de cozinha planejada com armários cinza, torre para micro-ondas e forno, gaveteiros, bancada de apoio e painel ripado com iluminação quente.",
+      "image": {
+        "src": "/images/cozinha-planejada-armarios-02.jpg",
+        "alt": "Cozinha planejada cinza com torre quente, gaveteiros e painel ripado iluminado",
+        "type": "image/jpeg"
+      },
+      "caption": "Armários planejados cinza com torre quente e iluminação sob os módulos superiores.",
+      "category": "cozinhas",
+      "location": "Brasília, DF",
+      "keywords": [
+        "cozinha planejada com iluminação",
+        "torre quente para cozinha",
+        "painel ripado iluminado",
+        "armários planejados cinza"
+      ],
+      "publishedAt": "2026-08-28",
+      "featured": false,
+      "reviewNotes": [
+        "Confirmar localidade, data da entrega e se a iluminação foi instalada pela empresa."
+      ]
+    },
+    {
+      "id": "ETG005",
+      "name": "Cozinha planejada branca e amadeirada",
+      "p": "Cozinha planejada em formato de L com armários claros, detalhes amadeirados, bancada escura, iluminação sob os módulos e espaço integrado para geladeira e forno.",
+      "image": {
+        "src": "/images/cozinha-planejada-armarios.jpg",
+        "alt": "Cozinha planejada branca e amadeirada em L com bancada escura e iluminação embutida",
+        "type": "image/jpeg"
+      },
+      "caption": "Cozinha em L com armários claros, detalhes amadeirados e iluminação embutida.",
+      "category": "cozinhas",
+      "location": "Brasília, DF",
+      "keywords": [
+        "cozinha planejada branca",
+        "cozinha planejada amadeirada",
+        "cozinha em L sob medida",
+        "móveis planejados em Brasília"
+      ],
+      "publishedAt": "2026-08-28",
+      "featured": false,
+      "reviewNotes": [
+        "Confirmar localidade, data da entrega e os materiais exatos dos acabamentos.",
+        "A imagem mostra eletrodomésticos, mas não confirma que foram fornecidos pela empresa."
+      ]
+    },
+    {
+      "id": "ETG006",
+      "name": "Guarda-roupa planejado com gaveteiro interno",
+      "p": "Guarda-roupa planejado com portas de correr, cabideiro, gaveteiro interno e prateleiras abertas para organizar roupas e acessórios.",
+      "image": {
+        "src": "/images/quarto-planejado-armario.jpg",
+        "alt": "Guarda-roupa planejado com portas de correr, gavetas e prateleiras internas",
+        "type": "image/jpeg"
+      },
+      "caption": "Interior de guarda-roupa planejado com portas de correr e módulos de organização.",
+      "category": "quartos",
+      "location": "Brasília, DF",
+      "keywords": [
+        "guarda-roupa planejado",
+        "guarda-roupa com portas de correr",
+        "closet sob medida",
+        "móveis para quarto em Brasília"
+      ],
+      "publishedAt": "2026-08-28",
+      "featured": false,
+      "reviewNotes": [
+        "Confirmar localidade, data da entrega e se o móvel integra um quarto ou closet."
+      ]
+    },
+    {
+      "id": "ETG007",
+      "name": "Painel de TV planejado com nichos iluminados",
+      "p": "Painel de TV planejado com estrutura metálica aparente, nichos abertos, armários inferiores, acabamento amadeirado e iluminação embutida.",
+      "image": {
+        "src": "/images/sala-planejada-televisao.jpg",
+        "alt": "Painel de TV planejado com nichos, armários amadeirados e iluminação embutida",
+        "type": "image/jpeg"
+      },
+      "caption": "Painel de TV para sala com nichos abertos, iluminação e armários inferiores.",
+      "category": "salas",
+      "location": "Brasília, DF",
+      "keywords": [
+        "painel de TV planejado",
+        "rack para sala sob medida",
+        "sala planejada",
+        "móveis sob medida em Brasília"
+      ],
+      "publishedAt": "2026-08-28",
+      "featured": false,
+      "reviewNotes": [
+        "Confirmar localidade e data da entrega.",
+        "A foto também mostra ar-condicionado, janela e cadeiras; esses itens não devem ser apresentados como parte do móvel sem confirmação."
+      ]
+    }
+  ]
+}

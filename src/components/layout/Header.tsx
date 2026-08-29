@@ -8,7 +8,6 @@ const navigation = [
   { label: "Ambientes", href: "#solucoes" },
   { label: "Projetos", href: "#projetos" },
   { label: "Sobre", href: "#sobre" },
-  { label: "Depoimentos", href: "#depoimentos" },
 ];
 
 export function Header() {

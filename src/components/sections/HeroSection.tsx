@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
+import Image from "next/image";
 
 export function HeroSection() {
   return (
@@ -39,25 +40,18 @@ export function HeroSection() {
           className="hero-visual"
           aria-label="Prévia de um ambiente planejado"
         >
-          <div className="room-scene">
-            <div className="room-wall" />
-            <div className="room-window">
-              <span />
-            </div>
-            <div className="room-shelf shelf-top" />
-            <div className="room-shelf shelf-bottom" />
-            <div className="room-cabinet">
-              <span />
-              <span />
-              <span />
-            </div>
-            <div className="room-table" />
-            <div className="room-chair" />
-            <div className="room-plant">
-              <i />
-              <b />
-              <b />
-              <b />
+          <div className="hero-photo-frame">
+            <Image
+              src="/images/cozinha-planejada-armarios.jpg"
+              alt="Cozinha planejada branca e amadeirada com bancada escura e iluminação embutida"
+              fill
+              priority
+              sizes="(max-width: 900px) 100vw, 55vw"
+              className="hero-photo object-cover object-center"
+            />
+            <div className="hero-photo-note">
+              <span>Entrega real</span>
+              <strong>Cozinha em L</strong>
             </div>
           </div>
           <span className="visual-caption">Prévia de composição</span>
