@@ -51,10 +51,9 @@ export function HeroSection() {
             />
             <div className="hero-photo-note">
               <span>Entrega real</span>
-              <strong>Cozinha em L</strong>
+              <strong>Armário de Cosinha Planejado em L</strong>
             </div>
           </div>
-          <span className="visual-caption">Prévia de composição</span>
         </div>
       </Container>
     </section>

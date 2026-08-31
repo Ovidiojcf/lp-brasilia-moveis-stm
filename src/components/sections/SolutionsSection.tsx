@@ -29,7 +29,7 @@ export function SolutionsSection() {
                 href="#orcamento"
                 variant={item === 0 ? "gold" : "secondary"}
               >
-                Explorar ambiente <span aria-hidden="true">↗</span>
+                Explorar ambiente <span aria-hidden="true"></span>
               </Button>
             </article>
           ))}
