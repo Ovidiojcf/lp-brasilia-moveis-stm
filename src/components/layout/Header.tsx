@@ -76,19 +76,25 @@ export function Header() {
 
         <button
           type="button"
-          className="flex h-11 w-11 flex-col items-center justify-center gap-1.5 rounded-full text-(--color-ink) transition-colors hover:bg-(--color-sand) focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-(--color-gold) md:hidden"
+          className="relative flex h-11 w-11 items-center justify-center rounded-full text-(--color-ink) transition-colors hover:bg-(--color-sand) focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-(--color-gold) md:hidden"
           aria-label={isMenuOpen ? "Fechar menu" : "Abrir menu"}
           aria-expanded={isMenuOpen}
           onClick={() => setIsMenuOpen((open) => !open)}
         >
           <span
-            className={`h-px w-5 bg-current transition-transform duration-300 ${isMenuOpen ? "translate-y-1 rotate-45" : ""}`}
+            className={`absolute h-0.5 w-6 rounded-full bg-current transition-all duration-300 ${
+              isMenuOpen ? "rotate-45" : "-translate-y-2"
+            }`}
           />
           <span
-            className={`h-px w-5 bg-current transition-opacity duration-300 ${isMenuOpen ? "opacity-0" : ""}`}
+            className={`absolute h-0.5 w-6 rounded-full bg-current transition-all duration-300 ${
+              isMenuOpen ? "opacity-0" : "opacity-100"
+            }`}
           />
           <span
-            className={`h-px w-5 bg-current transition-transform duration-300 ${isMenuOpen ? "-translate-y-1 -rotate-45" : ""}`}
+            className={`absolute h-0.5 w-6 rounded-full bg-current transition-all duration-300 ${
+              isMenuOpen ? "-rotate-45" : "translate-y-2"
+            }`}
           />
         </button>
       </div>
