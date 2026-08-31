@@ -7,21 +7,26 @@ export function HeroSection() {
     <section id="inicio" className="hero-section" aria-labelledby="hero-title">
       <Container className="hero-grid">
         <div className="hero-copy">
-          <p className="eyebrow">Brasília Móveis Planejados</p>
-          <h1 id="hero-title">
+          <p className="eyebrow motion-reveal motion-delay-1">
+            Brasília Móveis Planejados
+          </p>
+          <h1 id="hero-title" className="motion-reveal motion-delay-2">
             Ambientes que <em>cabem</em> na sua vida.
           </h1>
-          <p className="hero-description">
+          <p className="hero-description motion-reveal motion-delay-3">
             Móveis planejados sob medida para transformar casas, quartos,
             escritórios e empresas com mais intenção e aproveitamento.
           </p>
-          <div className="hero-actions">
+          <div className="hero-actions motion-reveal motion-delay-4">
             <Button href="#orcamento">Solicitar orçamento gratuito</Button>
             <Button href="#solucoes" variant="secondary">
               Conhecer soluções
             </Button>
           </div>
-          <div className="stat-bar" aria-label="Destaques do atendimento">
+          <div
+            className="stat-bar motion-reveal motion-delay-5"
+            aria-label="Destaques do atendimento"
+          >
             <div>
               <strong>01</strong>
               <span>projeto sob medida</span>
@@ -37,7 +42,7 @@ export function HeroSection() {
           </div>
         </div>
         <div
-          className="hero-visual"
+          className="hero-visual motion-visual"
           aria-label="Prévia de um ambiente planejado"
         >
           <div className="hero-photo-frame">
