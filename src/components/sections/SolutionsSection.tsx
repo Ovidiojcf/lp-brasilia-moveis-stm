@@ -19,7 +19,7 @@ export function SolutionsSection() {
         <div className="solution-grid">
           {solutions.map((solution, item) => (
             <article
-              className={`solution-card${item === 0 ? " solution-card-featured" : ""}`}
+              className={`solution-card${item === 0 ? " solution-card-featured" : ""} motion-card motion-card-${item + 1}`}
               key={solution.index}
             >
               <span className="card-index">{solution.index}</span>
@@ -29,7 +29,7 @@ export function SolutionsSection() {
                 href="#orcamento"
                 variant={item === 0 ? "gold" : "secondary"}
               >
-                Explorar ambiente <span aria-hidden="true">↗</span>
+                Explorar ambiente <span aria-hidden="true"></span>
               </Button>
             </article>
           ))}

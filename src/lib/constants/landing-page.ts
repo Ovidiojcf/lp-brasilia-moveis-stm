@@ -7,7 +7,7 @@ export type Solution = {
 export const solutions: Solution[] = [
   {
     index: "01",
-    title: "Casas & apartamentos",
+    title: "Apartamentos",
     description: "Mais fluidez para salas, cozinhas e ambientes integrados.",
   },
   {
@@ -18,11 +18,11 @@ export const solutions: Solution[] = [
   {
     index: "03",
     title: "Escritórios",
-    description: "Um espaço de trabalho que acompanha o seu ritmo.",
+    description: "Um espaço de trabalho que acompanha o seu ritmo e estilo.",
   },
   {
     index: "04",
     title: "Empresas",
-    description: "Marcenaria planejada para receber pessoas e ideias.",
+    description: "Moveis idealizados para receber pessoas e familiares.",
   },
 ];
