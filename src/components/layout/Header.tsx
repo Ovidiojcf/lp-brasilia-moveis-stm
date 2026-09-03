@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/Button";
 const navigation = [
   { label: "Ambientes", href: "#solucoes" },
   { label: "Projetos", href: "#projetos" },
-  { label: "Sobre", href: "#sobre" },
+  { label: "Localização", href: "#localizacao" },
 ];
 
 export function Header() {
