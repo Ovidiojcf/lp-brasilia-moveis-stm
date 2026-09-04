@@ -1,36 +1,56 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Brasília Móveis Planejados
 
-## Getting Started
+Landing page de conversão para apresentar móveis planejados sob medida e direcionar clientes para atendimento e orçamento.
 
-First, run the development server:
+## Destaques
+
+- Hero com destaque visual para cozinha planejada cinza, ilha central e painel ripado.
+- CTA principal do hero abre um card de contatos do WhatsApp.
+- Card de contatos reutilizável, com variantes de cor, botão de fechamento, tecla `Escape`, clique fora e bloqueio de scroll.
+- Modal renderizado via portal para permanecer centralizado em qualquer componente, inclusive dentro de áreas animadas.
+- Overlay com blur ocupando toda a viewport em desktop e mobile.
+- Seção de projetos com imagens reais de ambientes planejados.
+- Navegação interna com rolagem suave até a seção de projetos.
+- Localização integrada ao Google Maps para Santarém, Pará.
+
+## Stack
+
+- Next.js 16
+- React 19
+- TypeScript
+- Tailwind CSS 4
+- `next/image` para imagens otimizadas
+
+## Executar localmente
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Abra [http://localhost:3000](http://localhost:3000) no navegador.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Scripts
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+| Comando         | Função                               |
+| --------------- | ------------------------------------ |
+| `npm run dev`   | Inicia o servidor de desenvolvimento |
+| `npm run lint`  | Executa o ESLint                     |
+| `npm run build` | Gera e valida a build de produção    |
+| `npm run start` | Inicia a aplicação em produção       |
 
-## Learn More
+## Organização
 
-To learn more about Next.js, take a look at the following resources:
+```text
+src/
+├── app/                    # rota principal e estilos globais
+├── components/
+│   ├── layout/             # header e navegação
+│   ├── sections/           # blocos da landing page
+│   └── ui/                 # componentes reutilizáveis
+└── lib/constants/          # conteúdo e configurações da página
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Validação
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+A aplicação foi validada com `npm run build`. O modal de WhatsApp também foi testado em viewport desktop e mobile, confirmando que o overlay ocupa toda a tela e que o card permanece centralizado.
