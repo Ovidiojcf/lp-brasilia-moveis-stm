@@ -5,10 +5,9 @@ export type Solution = {
 };
 
 export const mapLocation = {
-  latitude: -15.8914871,
-  longitude: -48.1431923,
+  query: "Santarém, Pará",
   mapsUrl:
-    "https://www.google.com/maps/place/15%C2%B053'29.4%22S+48%C2%B008'35.5%22W/@-15.8914871,-48.1457672,763m/data=!3m2!1e3!4b1!4m4!3m3!8m2!3d-15.8914871!4d-48.1431923?hl=pt-BR&entry=ttu",
+    "https://www.google.com/maps/search/?api=1&query=Santar%C3%A9m%2C+Par%C3%A1",
 };
 
 export const whatsappMessage =
@@ -39,6 +38,6 @@ export const solutions: Solution[] = [
   {
     index: "04",
     title: "Empresas",
-    description: "Moveis idealizados para receber pessoas e familiares.",
+    description: "Móveis idealizados para receber pessoas e familiares.",
   },
 ];
