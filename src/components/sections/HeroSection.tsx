@@ -53,6 +53,7 @@ export function HeroSection() {
             <Image
               src="/images/cozinha-planejada-armario-cinza.jpg"
               alt="Cozinha planejada cinza com ilha, bancada escura e painel ripado iluminado"
+              loading="eager"
               fill
               priority
               sizes="(max-width: 900px) 100vw, 55vw"
