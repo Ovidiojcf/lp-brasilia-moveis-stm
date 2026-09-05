@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/Button";
 import { Container } from "@/components/ui/Container";
+import { WhatsappContact } from "@/components/ui/WhatsappContact";
 import Image from "next/image";
 
 export function HeroSection() {
@@ -18,8 +19,11 @@ export function HeroSection() {
             escritórios e empresas com mais intenção e aproveitamento.
           </p>
           <div className="hero-actions motion-reveal motion-delay-4">
-            <Button href="#orcamento">Solicitar orçamento gratuito</Button>
-            <Button href="#solucoes" variant="secondary">
+            <WhatsappContact
+              label="Solicitar orçamento gratuito"
+              color="brown"
+            />
+            <Button href="#projetos" variant="secondary">
               Conhecer soluções
             </Button>
           </div>
@@ -47,16 +51,17 @@ export function HeroSection() {
         >
           <div className="hero-photo-frame">
             <Image
-              src="/images/cozinha-planejada-armarios.jpg"
-              alt="Cozinha planejada branca e amadeirada com bancada escura e iluminação embutida"
+              src="/images/cozinha-planejada-armario-cinza.jpg"
+              alt="Cozinha planejada cinza com ilha, bancada escura e painel ripado iluminado"
+              loading="eager"
               fill
               priority
               sizes="(max-width: 900px) 100vw, 55vw"
               className="hero-photo object-cover object-center"
             />
             <div className="hero-photo-note">
-              <span>Entrega real</span>
-              <strong>Armário de Cosinha Planejado em L</strong>
+              <span>Projeto em destaque</span>
+              <strong>Cozinha cinza com ilha e painel ripado</strong>
             </div>
           </div>
         </div>
